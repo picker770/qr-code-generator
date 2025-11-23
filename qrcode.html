@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
+    <link rel="stylesheet" href="assets/css/qrcode.css">
 </head>
 <body>
-    
+    <!-- QR Code Main Container -->
+     <div class="qr-container">
+        <!-- Main Heading for QR Code -->
+        <h2>
+            QR Code Generator
+        </h2>
+
+        <input type="text" id="qr-input" placeholder="You have to put your URL here">
+
+        <button id="qr-button">Click here to Generate QR Code</button>
+
+        <img src="#" alt="" id="qr-img">
+     </div>
+    <script src="assets/js/qrcode.js"></script>
 </body>
 </html>
